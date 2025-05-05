@@ -98,7 +98,7 @@ export const App = () => {
             className={`button is-danger ${isInitialOrder ? '' : 'is-light'}`}
             onClick={() => {
               setSortField(SORT_FIELD_DEFAULT);
-              setIsReversed();
+              setIsReversed(false);
             }}
           >
             Reset
